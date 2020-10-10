@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1602357654,
-    'checksum' => '27b0430179b81d6415a965870459355e',
+    'timestamp' => 1602359640,
+    'checksum' => 'b904e88ff2bea9b23490d0475956e941',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -78,10 +78,6 @@ return [
             'themes/hypertext' => [
                 'file' => 'user/themes/hypertext/blueprints.yaml',
                 'modified' => 1601071366
-            ],
-            'themes/quark' => [
-                'file' => 'user/themes/quark/blueprints.yaml',
-                'modified' => 1602114361
             ]
         ]
     ],
@@ -5167,187 +5163,6 @@ return [
                 'size' => 'large',
                 'name' => 'themes.hypertext.partials.footer.custom_footer',
                 'validation' => 'strict'
-            ],
-            'themes.quark' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'loose'
-                ]
-            ],
-            'themes.quark.production-mode' => [
-                'type' => 'toggle',
-                'label' => 'Production mode',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.production-mode',
-                'validation' => 'loose'
-            ],
-            'themes.quark.grid-size' => [
-                'type' => 'select',
-                'label' => 'Grid size',
-                'size' => 'small',
-                'options' => [
-                    '' => 'None (full width)',
-                    'grid-xl' => 'Extra Large',
-                    'grid-lg' => 'Large',
-                    'grid-md' => 'Medium'
-                ],
-                'name' => 'themes.quark.grid-size',
-                'validation' => 'loose'
-            ],
-            'themes.quark.custom_logo' => [
-                'type' => 'file',
-                'label' => 'Custom Logo',
-                'size' => 'large',
-                'destination' => 'theme://images/logo',
-                'multiple' => false,
-                'markdown' => true,
-                'description' => 'Will be used instead of default logo `theme://images/grav-logo.svg`',
-                'accept' => [
-                    0 => 'image/*'
-                ],
-                'name' => 'themes.quark.custom_logo',
-                'validation' => 'loose',
-                'array' => true
-            ],
-            'themes.quark.custom_logo_mobile' => [
-                'type' => 'file',
-                'label' => 'Mobile Custom Logo',
-                'size' => 'large',
-                'destination' => 'theme://images/logo',
-                'multiple' => false,
-                'accept' => [
-                    0 => 'image/*'
-                ],
-                'name' => 'themes.quark.custom_logo_mobile',
-                'validation' => 'loose',
-                'array' => true
-            ],
-            'themes.quark.header-fixed' => [
-                'type' => 'toggle',
-                'label' => 'Fixed header',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.header-fixed',
-                'validation' => 'loose'
-            ],
-            'themes.quark.header-animated' => [
-                'type' => 'toggle',
-                'label' => 'Animated',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.header-animated',
-                'validation' => 'loose'
-            ],
-            'themes.quark.header-dark' => [
-                'type' => 'toggle',
-                'label' => 'Dark Style',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.header-dark',
-                'validation' => 'loose'
-            ],
-            'themes.quark.header-transparent' => [
-                'type' => 'toggle',
-                'label' => 'Transparent',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.header-transparent',
-                'validation' => 'loose'
-            ],
-            'themes.quark.sticky-footer' => [
-                'type' => 'toggle',
-                'label' => 'Sticky footer',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.sticky-footer',
-                'validation' => 'loose'
-            ],
-            'themes.quark.blog-page' => [
-                'type' => 'text',
-                'label' => 'Blog Page',
-                'size' => 'medium',
-                'default' => '/blog',
-                'name' => 'themes.quark.blog-page',
-                'validation' => 'loose'
-            ],
-            'themes.quark.spectre' => [
-                'type' => '_parent',
-                'name' => 'themes.quark.spectre',
-                'form_field' => false
-            ],
-            'themes.quark.spectre.exp' => [
-                'type' => 'toggle',
-                'label' => 'Experimentals CSS',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.spectre.exp',
-                'validation' => 'loose'
-            ],
-            'themes.quark.spectre.icons' => [
-                'type' => 'toggle',
-                'label' => 'Icons CSS',
-                'highlight' => 0,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'themes.quark.spectre.icons',
-                'validation' => 'loose'
             ]
         ],
         'rules' => [
@@ -5933,22 +5748,6 @@ return [
                             'custom_footer_type' => 'themes.hypertext.partials.footer.custom_footer_type',
                             'custom_footer' => 'themes.hypertext.partials.footer.custom_footer'
                         ]
-                    ]
-                ],
-                'quark' => [
-                    'production-mode' => 'themes.quark.production-mode',
-                    'grid-size' => 'themes.quark.grid-size',
-                    'custom_logo' => 'themes.quark.custom_logo',
-                    'custom_logo_mobile' => 'themes.quark.custom_logo_mobile',
-                    'header-fixed' => 'themes.quark.header-fixed',
-                    'header-animated' => 'themes.quark.header-animated',
-                    'header-dark' => 'themes.quark.header-dark',
-                    'header-transparent' => 'themes.quark.header-transparent',
-                    'sticky-footer' => 'themes.quark.sticky-footer',
-                    'blog-page' => 'themes.quark.blog-page',
-                    'spectre' => [
-                        'exp' => 'themes.quark.spectre.exp',
-                        'icons' => 'themes.quark.spectre.icons'
                     ]
                 ]
             ]

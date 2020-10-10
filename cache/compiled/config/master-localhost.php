@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1602357671,
-    'checksum' => '0b4fde1af8bb83a4eb0b0206d1686666',
+    'timestamp' => 1602359635,
+    'checksum' => 'fb57653c367b57bce1dba5a6a181018a',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -102,10 +102,6 @@ return [
             'themes/hypertext' => [
                 'file' => 'user/themes/hypertext/hypertext.yaml',
                 'modified' => 1601071366
-            ],
-            'themes/quark' => [
-                'file' => 'user/themes/quark/quark.yaml',
-                'modified' => 1602114361
             ]
         ]
     ],
@@ -129,21 +125,6 @@ return [
                     'include_type' => 'default',
                     'image_cropping' => false,
                     'inline_navbar' => 1
-                ]
-            ],
-            'quark' => [
-                'enabled' => true,
-                'production-mode' => true,
-                'grid-size' => 'grid-lg',
-                'header-fixed' => true,
-                'header-animated' => true,
-                'header-dark' => false,
-                'header-transparent' => false,
-                'sticky-footer' => true,
-                'blog-page' => '/blog',
-                'spectre' => [
-                    'exp' => false,
-                    'icons' => false
                 ]
             ]
         ],
