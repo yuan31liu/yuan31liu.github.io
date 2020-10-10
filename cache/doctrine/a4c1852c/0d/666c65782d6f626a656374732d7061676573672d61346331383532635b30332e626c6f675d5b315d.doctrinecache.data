@@ -1,0 +1,14 @@
+1602358273
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1527:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"blog";s:8:"elements";a:3:{s:4:"root";b:0;s:6:"header";a:0:{}s:8:"markdown";s:1040:"This is an example `collection` page that can be used as a blog, including several children for experimenting with.
+
+===
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a quam et mauris aliquet pulvinar eget vitae urna. Phasellus varius tortor lectus, quis venenatis arcu porta at. Duis placerat tellus vitae porta tempus. 
+
+### Aliquam erat volutpat.
+In purus arcu, elementum ut felis ut, aliquam pretium ipsum. Aliquam sed odio nibh. Quisque vehicula lectus sapien, sollicitudin semper nisl porttitor a.
+
+Etiam et euismod ex, et auctor nisi. Donec venenatis est quis massa convallis, eget aliquet nisi lacinia. Fusce iaculis eros non libero luctus, et porttitor ante blandit. Cras sed purus turpis. Phasellus dignissim porttitor magna at mattis. Nam lacinia ex metus. Ut dignissim ut nunc quis aliquam. 
+
+### Sed viverra elementum nisi.
+Nam in augue tristique, hendrerit ipsum quis, fermentum augue. Phasellus eget enim eu justo venenatis malesuada nec a urna. Pellentesque vitae massa tincidunt, pretium mi id, dictum purus.";}s:7:"storage";a:7:{s:3:"key";s:4:"blog";s:11:"storage_key";s:7:"03.blog";s:8:"template";s:10:"collection";s:17:"storage_timestamp";i:1601071366;s:8:"markdown";a:1:{s:0:"";a:1:{s:10:"collection";i:1601071366;}}s:8:"children";a:3:{s:11:"01.post-one";b:0;s:11:"02.post-two";b:0;s:13:"03.post-three";b:0;}s:8:"checksum";s:32:"1dd0bfcf1f12fcea71142b68a85b6470";}}}

@@ -1,0 +1,22 @@
+1602358273
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2039:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:3:{s:4:"root";b:0;s:6:"header";a:0:{}s:8:"markdown";s:1652:"This is a typical homepage with some example content.  Nothing too fancy here.
+
+!! Note: If you want more detailed content, download and copy/paste the `pages` directory from [the hypertext github repository](http://github.com/artofthesmart/hypertext) into your website's `user/pages` directory.
+
+===
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a quam et mauris aliquet pulvinar eget vitae urna. Phasellus varius tortor lectus, quis venenatis arcu porta at. Duis placerat tellus vitae porta tempus. Aliquam erat volutpat. In purus arcu, elementum ut felis ut, aliquam pretium ipsum. 
+
+### Aliquam sed odio nibh
+
+Quisque vehicula lectus sapien, sollicitudin semper nisl porttitor a.
+
+![An image of a goldfish](goldfish.jpg)
+
+Etiam et euismod ex, et auctor nisi. Donec venenatis est quis massa convallis, eget aliquet nisi lacinia. Fusce iaculis eros non libero luctus, et porttitor ante blandit. Cras sed purus turpis. Phasellus dignissim porttitor magna at mattis. Nam lacinia ex metus. Ut dignissim ut nunc quis aliquam. Sed viverra elementum nisi. 
+
+* Nam in augue tristique, hendrerit ipsum quis, fermentum augue. 
+* Phasellus eget enim eu justo venenatis malesuada nec a urna. 
+* Pellentesque vitae massa tincidunt, pretium mi id, dictum purus.
+
+Aliquam erat velit, interdum at erat ullamcorper, pellentesque tincidunt ex. Mauris erat felis, consequat non posuere in, accumsan ut augue. Donec eu vestibulum arcu. Mauris venenatis odio vitae enim suscipit, at rutrum ipsum ultricies. Donec suscipit massa at vestibulum imperdiet. Vivamus sed viverra ipsum. Praesent ultricies libero non nunc pulvinar, quis tristique dolor bibendum.";}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1601071366;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1601071366;}}s:8:"checksum";s:32:"7f807fb45d2e0461b63a155d3329f9cf";}}}
